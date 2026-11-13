@@ -26,7 +26,7 @@
   </g>
   <g filter="url(#s)">
     <rect x="560" y="330" width="160" height="110" rx="18" fill="#fff" stroke="#DCEBF9"/>
-    <text x="584" y="366" font-family="Manrope, Inter, sans-serif" font-size="12" fill="#66809F">Build status</text>
+    <text x="584" y="366" font-family="Manrope, Inter, sans-serif" font-size="12" fill="#58708E">Build status</text>
     <text x="584" y="400" font-family="Manrope, Inter, sans-serif" font-size="26" font-weight="800" fill="#18385F">Passing</text>
     <circle cx="684" cy="386" r="16" fill="#E6FBF4"/><path d="M676 386l6 6 11-13" stroke="#0E9F7A" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
   </g>

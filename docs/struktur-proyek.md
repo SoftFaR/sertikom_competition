@@ -18,6 +18,11 @@ Setiap file HTML memuat stylesheet dan file JavaScript bersama. Halaman khusus r
 | File | Fungsi |
 |---|---|
 | `assets/css/styles.css` | Warna, tipografi, layout, kartu, tabel, modal, status, responsivitas, dan fokus keyboard. |
+| `assets/vendor/bootstrap.min.css` | Grid dan komponen dasar Bootstrap 5.3.3. |
+| `assets/vendor/bootstrap.bundle.min.js` | JavaScript Bootstrap + Popper untuk komponen interaktif. |
+| `assets/vendor/gsap.min.js`, `ScrollTrigger.min.js` | Animasi reveal hero/section dan pemicu scroll. |
+| `assets/vendor/anime.min.js` | Animasi stroke SVG pada ikon standar. |
+| `assets/vendor/motion.min.js` | Micro-interaction hover/tap dan reveal kartu dashboard. |
 | `assets/img/*.svg` | Logo dan ilustrasi vektor orisinal (hero, sekolah, program, galeri) tanpa aset eksternal. |
 | `assets/js/dummy-data.js` | Akun demo, data siswa/guru/industri, jadwal, ikon, dan judul menu. |
 | `assets/js/core.js` | State aplikasi, data sesi, penyimpanan sementara, navigasi, login demo, toast, dan reset data. |
@@ -29,13 +34,16 @@ Setiap file HTML memuat stylesheet dan file JavaScript bersama. Halaman khusus r
 | `assets/js/industry-pages.js` | Pencarian talenta, detail kompetensi, pustaka materi, agenda kolaborasi, dan laporan industri. |
 | `assets/js/product-pages.js` | Katalog dashboard, detail program, submission/penilaian, sertifikat, jadwal, dan nilai siswa. |
 | `assets/js/actions.js` | Modal, tambah/edit data, pencarian global, notifikasi, reset password, dan aksi umum. |
+| `assets/js/animations.js` | Integrasi GSAP/ScrollTrigger, Anime.js, Motion, cleanup, dan dukungan reduced motion. |
 | `assets/js/init.js` | Inisialisasi halaman sesuai titik masuk HTML. |
 
 ## File contoh dan dokumentasi
 
-- `docs/contoh-import-siswa.csv` — contoh CSV siswa yang dapat diunggah.
-- `docs/contoh-import-guru.csv` — contoh CSV guru yang dapat diunggah.
+- `contoh-import-siswa.csv` — contoh CSV siswa yang dapat diunggah.
+- `contoh-import-guru.csv` — contoh CSV guru yang dapat diunggah.
 - `docs/panduan-presentasi.md` — alur demo dan ide narasi presentasi.
+- `docs/perubahan-uiux.md` — ringkasan arah visual dan fitur.
+- `docs/laporan-akhir.md` — laporan audit, dependensi, pengujian, dan batasan.
 - `README.md` — petunjuk menjalankan proyek, akun demo, fitur, serta batasan.
 
 ## Alur data demo

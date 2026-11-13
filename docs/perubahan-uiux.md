@@ -10,6 +10,24 @@
 - Detail program menampilkan informasi, materi, tugas/asesmen, sertifikasi & jadwal, persyaratan, dan ringkasan program.
 - Sertifikat memakai bingkai putih-biru dan menyediakan detail nomor serta verifikasi demo.
 - Mobile layout dibuat responsif, termasuk navigasi, tabel, katalog, dan wizard pendaftaran.
+- Autentikasi memakai satu kolom pada lebar `<=900px` agar tablet portrait tidak mengalami overflow.
+- Standar global dan galeri memakai Bootstrap grid; komponen lain tetap memakai CSS kustom Arctic Glass.
+
+## Fondasi dan animasi
+
+- Bootstrap 5.3.3 dipakai untuk grid dan komponen dasar.
+- GSAP + ScrollTrigger mengatur reveal hero/section dan elemen saat masuk viewport.
+- Anime.js menggambar stroke ikon SVG standar global.
+- Motion menangani hover/tap dan reveal kartu dashboard.
+- Semua animasi menghormati `prefers-reduced-motion` dan dibersihkan saat render ulang.
+- Kontras teks muted dinaikkan, tombol ikon diberi label aksesibel, dan filter submission memiliki nama aksesibel.
+
+## Hasil pengujian
+
+- 77 kombinasi halaman/viewport tanpa overflow tingkat halaman dan tanpa error console.
+- 34 pemeriksaan interaksi browser lolos.
+- Audit axe-core WCAG 2 A/AA pada 12 halaman: 0 violation.
+- Detail lengkap ada di `docs/laporan-akhir.md`.
 
 ## Arah gambar
 

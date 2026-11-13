@@ -78,12 +78,24 @@ Perubahan program, penilaian, submission, siswa, jadwal, dan beberapa data demo 
 
 Palet utama: ice-blue, putih, navy, dan glow biru dengan permukaan kaca (glassmorphism). Tidak digunakan gambar manusia, gambar generatif, atau stok eksternal; seluruh ilustrasi adalah SVG vektor orisinal di `assets/img/`. Lihat `docs/credits-gambar.md`. Logo institusi memakai placeholder dan belum boleh dianggap sebagai logo mitra resmi.
 
+Laporan audit, dependensi, hasil pengujian responsif/aksesibilitas, dan batasan tersedia di `docs/laporan-akhir.md`.
+
+## Dependensi lokal
+
+- Bootstrap 5.3.3 untuk grid dan komponen dasar.
+- GSAP 3.12.5 + ScrollTrigger untuk animasi reveal.
+- Anime.js 3.2.2 untuk animasi SVG.
+- Motion 11.18.2 untuk micro-interaction.
+- Semua library dimuat dari `assets/vendor/`, bukan CDN. Detail versi, alasan, dan hasil pengujian ada di `docs/laporan-akhir.md`.
+
 ## Struktur utama
 
 ```text
 sertikom_prototype_terstruktur/
 ├── index.html
 ├── presentasi.html
+├── contoh-import-guru.csv
+├── contoh-import-siswa.csv
 ├── pages/
 │   ├── login.html
 │   ├── register.html
@@ -97,7 +109,14 @@ sertikom_prototype_terstruktur/
 │   └── submissions.html
 ├── assets/
 │   ├── css/styles.css
-│   ├── img/sertikom-logo.svg
+│   ├── img/*.svg
+│   ├── vendor/
+│   │   ├── bootstrap.min.css
+│   │   ├── bootstrap.bundle.min.js
+│   │   ├── gsap.min.js
+│   │   ├── ScrollTrigger.min.js
+│   │   ├── anime.min.js
+│   │   └── motion.min.js
 │   └── js/
 │       ├── dummy-data.js
 │       ├── core.js
@@ -109,10 +128,12 @@ sertikom_prototype_terstruktur/
 │       ├── industry-pages.js
 │       ├── actions.js
 │       ├── product-pages.js
+│       ├── animations.js
 │       └── init.js
 └── docs/
     ├── credits-gambar.md
     ├── struktur-proyek.md
+    ├── perubahan-uiux.md
     ├── panduan-presentasi.md
-    └── contoh-import-*.csv
+    └── laporan-akhir.md
 ```

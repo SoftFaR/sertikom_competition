@@ -23,7 +23,7 @@
     <rect x="164" y="338" width="142" height="42" rx="12" fill="#EAF5FF" stroke="#BFE0FF"/>
     <rect x="178" y="352" width="80" height="12" rx="6" fill="#1769E8"/>
     <rect x="350" y="180" width="210" height="120" rx="18" fill="#fff" stroke="#DCEBF9"/>
-    <text x="374" y="216" font-family="Manrope, Inter, sans-serif" font-size="15" fill="#66809F">Progres kompetensi</text>
+    <text x="374" y="216" font-family="Manrope, Inter, sans-serif" font-size="15" fill="#58708E">Progres kompetensi</text>
     <text x="374" y="262" font-family="Manrope, Inter, sans-serif" font-size="40" font-weight="800" fill="#18385F">68%</text>
     <rect x="374" y="274" width="158" height="9" rx="5" fill="#EAF5FF"/>
     <rect x="374" y="274" width="108" height="9" rx="5" fill="url(#blue)"/>
@@ -44,13 +44,13 @@
     <rect x="82" y="442" width="44" height="44" rx="13" fill="url(#blue)"/>
     <path d="M96 458l6 6 11-13" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
     <text x="140" y="458" font-family="Manrope, Inter, sans-serif" font-size="14" font-weight="800" fill="#18385F">Terverifikasi</text>
-    <text x="140" y="480" font-family="Manrope, Inter, sans-serif" font-size="12" fill="#66809F">Sertifikat digital</text>
+    <text x="140" y="480" font-family="Manrope, Inter, sans-serif" font-size="12" fill="#58708E">Sertifikat digital</text>
   </g>
   <g filter="url(#shadow)">
     <rect x="740" y="50" width="200" height="86" rx="20" fill="url(#glass)" stroke="#fff" stroke-width="2"/>
     <rect x="762" y="70" width="42" height="42" rx="12" fill="#20B9D8" opacity=".18"/>
     <path d="M776 91h16M784 83v16" stroke="#20B9D8" stroke-width="4" stroke-linecap="round"/>
     <text x="818" y="88" font-family="Manrope, Inter, sans-serif" font-size="14" font-weight="800" fill="#18385F">Portofolio</text>
-    <text x="818" y="108" font-family="Manrope, Inter, sans-serif" font-size="12" fill="#66809F">Karya digital siswa</text>
+    <text x="818" y="108" font-family="Manrope, Inter, sans-serif" font-size="12" fill="#58708E">Karya digital siswa</text>
   </g>
 </svg>

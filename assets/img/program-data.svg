@@ -9,10 +9,10 @@
   <g filter="url(#s)">
     <rect x="120" y="80" width="560" height="340" rx="22" fill="#fff" stroke="#DCEBF9"/>
     <rect x="150" y="110" width="180" height="64" rx="14" fill="#EAF5FF"/>
-    <text x="170" y="136" font-family="Manrope, Inter, sans-serif" font-size="11" fill="#66809F">Total peserta</text>
+    <text x="170" y="136" font-family="Manrope, Inter, sans-serif" font-size="11" fill="#58708E">Total peserta</text>
     <text x="170" y="160" font-family="Manrope, Inter, sans-serif" font-size="24" font-weight="800" fill="#18385F">248</text>
     <rect x="346" y="110" width="180" height="64" rx="14" fill="#EAF5FF"/>
-    <text x="366" y="136" font-family="Manrope, Inter, sans-serif" font-size="11" fill="#66809F">Kelulusan</text>
+    <text x="366" y="136" font-family="Manrope, Inter, sans-serif" font-size="11" fill="#58708E">Kelulusan</text>
     <text x="366" y="160" font-family="Manrope, Inter, sans-serif" font-size="24" font-weight="800" fill="#18385F">92%</text>
     <rect x="542" y="110" width="108" height="64" rx="14" fill="url(#blue)"/>
     <text x="562" y="136" font-family="Manrope, Inter, sans-serif" font-size="11" fill="#D9EDFF">Sertifikat</text>
@@ -26,6 +26,6 @@
     <rect x="600" y="70" width="150" height="90" rx="18" fill="#fff" stroke="#DCEBF9"/>
     <circle cx="638" cy="112" r="20" fill="#E6FBF4"/><path d="M628 112l7 7 13-15" stroke="#0E9F7A" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
     <text x="670" y="108" font-family="Manrope, Inter, sans-serif" font-size="12" font-weight="700" fill="#18385F">Data valid</text>
-    <text x="670" y="126" font-family="Manrope, Inter, sans-serif" font-size="11" fill="#66809F">Real-time demo</text>
+    <text x="670" y="126" font-family="Manrope, Inter, sans-serif" font-size="11" fill="#58708E">Real-time demo</text>
   </g>
 </svg>
